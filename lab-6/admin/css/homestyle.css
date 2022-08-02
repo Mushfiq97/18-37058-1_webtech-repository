@@ -1,0 +1,30 @@
+.item-container
+{
+    width:50%;
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-top : 100px;
+    margin-left: 50%;
+    transform:translate(-50%);
+    grid-gap:30px;
+    border:2px solid gray;
+    padding:50px;
+    color: rgb(253, 253, 253);
+   
+} 
+.item-container a
+{
+    text-decoration: none;
+    font-size: 30px;
+    height:70px;
+    width: 100%;
+    background-color: rgb(91, 91, 97);
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding-top:12px;
+    border-radius:5px;
+}
+.item-container .btn5:hover
+{
+    background-color:rgb(37, 37, 44);
+}
