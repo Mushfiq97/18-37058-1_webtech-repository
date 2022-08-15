@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background-color:red; */
+    width: 30vw;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    grid-gap: 14px;
+    padding: 20px;
+    /* border: 1px solid black; */
+
+}
+
+.logo h3 {
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    color: red;
+    display: inline-block;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logo h3 span {
+    color: #412ad3;
+}
+
+.raa-text {
+    display: inline-block;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(31, 21, 117);
+}
+
+.si-tb {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    display: grid;
+    justify-content: right;
+    border-radius: 5px;
+}
+
+.input-box input {
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.gender {
+    /* padding: 3px; */
+    border: 1px solid black;
+    border-radius: 5px;
+    /* padding-left: 20px; */
+    height: 30px;
+}
+
+.gender div {
+    padding-left: 20px;
+}
+
+.gender p {
+    padding-top: 4px;
+    /* padding-left: 10px; */
+    font-family: 'Segoe UI', sans-serif;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.gender-inp {
+
+    margin-left: 8px;
+    height: 12px;
+    width: 12px;
+
+}
+
+.gender div {
+    font-weight: 700;
+}
+
+.dob input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    padding-left: 20px;
+    color: rgb(25, 25, 133);
+    font-weight: 500;
+}
+
+.dob p {
+    display: block;
+    margin-top: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;
+}
+
+.button-signup input {
+    margin-top: 8px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(62, 177, 62);
+    border-radius: 5px;
+    border: 0px;
+}
+
+.button-signup input:hover {
+    background-color: darkgreen;
+}
+
+.signin {
+    text-decoration: none;
+    background-color: rgb(67, 102, 216);
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    text-align: center;
+    
+    border-radius: 5px;
+}
+.signin:hover
+{
+    background-color: #24196b;
+}
+.haa
+{
+    color: rgb(11, 85, 11)
+}
+
+.em
+{
+    font-family: 'Segoe UI', sans-serif;
+    color:red;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 20px;
+}
+#gem
+{
+    font-size: 16px;
+}

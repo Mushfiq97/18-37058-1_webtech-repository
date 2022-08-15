@@ -1,0 +1,42 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{ 
+    margin-top: 200px;
+    margin-left: 50%;
+    transform:translate(-50%);
+    border :3px solid gray;
+    justify-items: center;
+    padding: 100px;
+    width:600px;
+    height:300px
+
+}
+div h1
+{
+    font-family:'Segoe UI';
+    color:green
+}
+
+div a
+{
+    font-family:'Segoe UI';
+    text-decoration:none;
+    background-color:blue;
+    color:white;
+    display:inline-block;
+    width:290px;
+    text-align: center;
+    font-size:25px;
+    padding-top:3px;
+    font-weight: 600;
+    height:40px;
+    border-radius: 5px;
+}
+div a:hover
+{
+    background-color:rgb(89, 89, 252);
+}
